@@ -39,6 +39,8 @@
         <profile.swagger />
         <profile.tls />
 
+        <docker.image.prefix>prepayments</docker.image.prefix>
+
         <!-- Dependency versions -->
         <jhipster-dependencies.version>3.9.1</jhipster-dependencies.version>
         <!-- The spring-boot version should match the one managed by
@@ -635,7 +637,7 @@
                             <image>adoptopenjdk:11-jre-hotspot</image>
                         </from>
                         <to>
-                            <image>prepayments:latest</image>
+                            <image>prepayments/prepayments:0.0.1-SNAPSHOT</image>
                         </to>
                         <container>
                             <entrypoint>
