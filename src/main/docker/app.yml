@@ -10,12 +10,15 @@ services:
       - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
       - SPRING_DATA_JEST_URI=http://prepayments-elasticsearch:9200
       - SPRING_ELASTICSEARCH_REST_URIS=http://prepayments-elasticsearch:9200
+      - PG_DATABASE_DEV_USER=${PG_DATABASE_DEV_USER}
+      - PG_DATABASE_DEV_PASSWORD=${PG_DATABASE_DEV_PASSWORD}
+      - LOCAL_PG_SERVER=${LOCAL_PG_SERVER}
     ports:
       - 17000:17000
-  prepayments-postgresql:
-    extends:
-      file: postgresql.yml
-      service: prepayments-postgresql
+  #  prepayments-postgresql:
+  #    extends:
+  #      file: postgresql.yml
+  #      service: prepayments-postgresql
   prepayments-elasticsearch:
     extends:
       file: elasticsearch.yml

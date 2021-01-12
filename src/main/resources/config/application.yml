@@ -150,15 +150,15 @@ jhipster:
     from: prepayments@localhost
   swagger:
     default-include-pattern: /api/.*
-    title: prepayments API
-    description: prepayments API documentation
+    title: Prepayments API
+    description: Prepayments API documentation
     version: 0.0.1
     terms-of-service-url:
-    contact-name:
+    contact-name: Edwin Njeru
     contact-url:
-    contact-email:
-    license: unlicensed
-    license-url:
+    contact-email: mailnjeru@gmail.com
+    license: GPLv3
+    license-url: https://www.gnu.org/licenses/gpl-3.0.txt
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
