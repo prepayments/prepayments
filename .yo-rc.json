@@ -37,5 +37,13 @@
     "enableTranslation": false,
     "blueprints": [],
     "lastLiquibaseTimestamp": 1610448450000
+  },
+  "generator-jhipster-file-handling": {
+    "promptValues": {
+      "gatewayMicroserviceName": "preps",
+      "generalClientRootFolder": "preps",
+      "fileModelTypes": "PREPAYMENT_DATA"
+    },
+    "lastLiquibaseTimestamp": 1610459189000
   }
 }
